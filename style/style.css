@@ -25,3 +25,37 @@
     align-items: center;
     margin-right: 20px;
 }
+/* Banner Section */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    background-color: black;
+    background-image: url("../images/background.png"),linear-gradient(45deg,rgb(8, 7, 7),rgb(54, 35, 35));
+    background-repeat: no-repeat;
+}
+.banner-title{
+    font-size:60px;
+    font-weight: bold;
+
+}
+.banner-description{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: orangered;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10pxs;
+}
+.banner-logo{
+    width: 300px;
+}
