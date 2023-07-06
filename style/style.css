@@ -118,7 +118,7 @@
     /* border: 5px solid rgb(95, 85, 85); */
     box-shadow: 5px 16px 20px 15px rgba(233, 210, 210, 0.19);
     border-radius: 10px;
-    margin: 20px;
+    margin: 20px 20px 20px 0px;
 }
 .service-box-title{
     padding: 20px 0px;
@@ -133,4 +133,37 @@
     border: none;
     border-radius: 5px;
     color: white;
+}
+/* Footer */
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 200px 150px;
+    /* margin-top: 50px; */
+    background-color: black;
+    color: white;
+}
+.logo-img-footer{
+    color: white;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.link-support{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.links{
+    margin:0px  100px;
+    
+}
+li{
+    margin: 10px 0px;
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 40px;
 }
