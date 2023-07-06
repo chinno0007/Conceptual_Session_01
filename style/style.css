@@ -167,3 +167,18 @@ h3{
     font-size: 30px;
     margin-bottom: 40px;
 }
+hr{
+    margin: 0px 150px;
+    color: gray;
+    
+}
+.copy-symbol{
+    text-align: center;
+    /* margin: 50px; */
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+footer{
+    background-color: black;
+}
