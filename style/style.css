@@ -83,3 +83,54 @@
 .about-banner-logo{
     width: 400px;
 }
+
+/* service Section */
+.all-service-container
+{
+    color: white;
+    
+    padding: 60px;
+    background-color: black;
+    background-image: url("../images/background.png"),linear-gradient(45deg,rgb(8, 7, 7),rgb(54, 35, 35));
+    background-repeat: no-repeat;
+}
+.service-title{
+    font-size:60px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.service-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.box-container{
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    height: 330px;
+    width: 250px;
+    /* border: 5px solid rgb(95, 85, 85); */
+    box-shadow: 5px 16px 20px 15px rgba(233, 210, 210, 0.19);
+    border-radius: 10px;
+    margin: 20px;
+}
+.service-box-title{
+    padding: 20px 0px;
+}
+.service-img{
+    width:100px;
+}
+.service-btn{
+    background-color: rgb(92, 84, 84);
+    padding: 10px 20px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
