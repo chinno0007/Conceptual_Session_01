@@ -59,3 +59,27 @@
 .banner-logo{
     width: 300px;
 }
+/* About Section */
+.about-title{
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 60px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 70px 0px;
+}
+.about-heading{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.about-description{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.about-banner-logo{
+    width: 400px;
+}
